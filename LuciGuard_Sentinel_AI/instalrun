@@ -1,0 +1,17 @@
+1.1 تأكد من أن نظامك محدّث:
+sudo apt update && sudo apt upgrade -y
+sudo apt install python3 python3-pip git ufw net-tools tor curl whois nmap -y
+1.2 ثبّت المتطلبات الأساسية:
+wget https://yourdomain.com/LuciGuard_Sentinel_AI.zip
+unzip LuciGuard_Sentinel_AI.zip
+cd LuciGuard_Sentinel_AI
+3.1 تشغيل سكريبت الإعداد التلقائي:
+sudo bash setup.sh
+4.1 الواجهة الرسومية (GTK):
+python3 luciguard_gui.py
+4.2 سطر الأوامر (CLI):
+python3 luciguard_cli.py
+4.3 الواجهة الويب (Web UI):
+python3 luciguard_web.py
+ثم افتح في المتصفح:
+http://127.0.0.1:8080
